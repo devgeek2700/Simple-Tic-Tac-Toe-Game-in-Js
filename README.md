@@ -1,5 +1,5 @@
 
-# Simple Tic Tac Toe ame in Js
+# Simple Tic Tac Toe Game in Js
 
 Tic Tac Toe is a classic two-player game where players take turns marking X or O on a 3x3 grid. The first player to get three in a row horizontally, vertically, or diagonally wins.
 
