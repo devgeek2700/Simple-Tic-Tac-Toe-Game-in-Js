@@ -1,0 +1,94 @@
+@font-face {
+
+    font-family: Neha singh font;
+    src: url('ImagesWeb/Permanent');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root{
+    --winning_blocks: #2d414b;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: #37505C;
+    text-align: center;
+    align-items: center;
+}
+
+#container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+    color: white;
+    font-size: 60px;
+}
+#container h3{
+    color: rgb(222, 219, 41);
+    font-size: 40px;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    box-shadow: 0,0,0,2px;
+    color: rgb(59, 242, 98);
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+    cursor: pointer;
+    line-height: 80PX;
+    font-weight: 600;
+
+}
+#game-container{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-template-rows: repeat(3,auto);
+  width: 250px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#btn{
+    margin: 20px auto;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(215, 88, 88);
+    color: rgb(235, 239, 240);
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#btn:hover{
+    background-color: rgb(239, 51, 51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
